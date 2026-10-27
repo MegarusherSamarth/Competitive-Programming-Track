@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int x, y;
+    cin >> x >> y;
+    if (x <= y) cout << "Tyro" << endl;
+    else cout << "Dom" << endl;
+    return 0;
+}
