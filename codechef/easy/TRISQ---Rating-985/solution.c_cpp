@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--){
+        int B;
+        cin >> B;
+        int b = B/2 - 1;
+        if (b < 0) b = 0;
+        cout << (b * (b+1))/2 << endl;
+    }
+    return 0;
+}
