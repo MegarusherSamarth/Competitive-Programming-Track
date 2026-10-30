@@ -58,19 +58,17 @@ We print `ORDINARY` since day is not $25$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T04:51:32.512Z  
+**Submitted:** 2026-10-30T04:51:38.532Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	int X;
-	cin >> X;
-	if (X==25) cout << "CHRISTMAS";
-	else cout << "ORDINARY";
-	return 0;
+	// your code goes here
+
 }
+
 ```
 
 ---
