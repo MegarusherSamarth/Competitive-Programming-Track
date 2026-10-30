@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int n,x;
+        cin>>n>>x;
+        int prod = n * x;
+        int count = 0;
+        while (prod != 0){
+            prod /= 10;
+            count++;
+        }
+        if (count == 5) cout << "yes" << endl;
+        else cout << "no" << endl;
+    }
+    return 0;
+
+}
