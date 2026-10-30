@@ -56,20 +56,24 @@ No
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T04:39:45.274Z  
+**Submitted:** 2026-10-30T04:40:56.784Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
+void solve(){
+    int x;
+    cin >> x;
+    if (x <= 15) cout << "yes" << endl;
+    else cout << "no" << endl;
+}
+
 int main() {
     int t;
     cin >> t;
     while(t--){
-        int x;
-        cin >> x;
-        if (x <= 15) cout << "yes" << endl;
-        else cout << "no" << endl;
+        solve();
     }
     return 0;
 }
