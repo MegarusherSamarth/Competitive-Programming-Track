@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--){
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    int sum = a + b + c + d;
+    if ((sum - a < a) || (sum - b < b) || (sum - c < c) || (sum - d < d)) cout << "yes" << endl;
+    else cout << "no" << endl;
+    }
+    return 0;
+}
