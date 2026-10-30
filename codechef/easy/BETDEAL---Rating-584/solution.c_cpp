@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--){
+        int a, b;
+        cin >> a >> b;
+        if ((100 - (a*100)/100) < (200 - (b*200)/100)) cout << "FIRST" << endl;
+        else if ((100 - (a*100)/100) > (200 - (b*200)/100)) cout << "SECOND" << endl;
+        else cout << "BOTH" << endl;
+    }
+    return 0;
+}
